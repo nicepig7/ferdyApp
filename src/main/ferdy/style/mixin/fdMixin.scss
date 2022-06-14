@@ -1,0 +1,18 @@
+//-----------------------------
+// Positioning
+//-----------------------------
+// [MIXIN] aFull : Absoulte full position
+@mixin afull($gap:0px) {
+    position:absolute;
+    top:$gap;bottom:$gap;
+    left:$gap;right:$gap;
+}
+
+//-----------------------------
+// Pattern
+//-----------------------------
+// [MIXIN] pattern-paper
+@mixin pattern-paper {
+    background-image: url(@image/pattern/black-paper.png);
+}
+

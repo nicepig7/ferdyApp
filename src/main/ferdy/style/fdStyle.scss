@@ -1,3 +1,10 @@
-#ferdy {
-    
-}
+// [IMPORT] Base info.
+@import '@style/token/fdToken.scss';
+@import '@style/mixin/fdMixin.scss';
+// [IMPORT] Layered style
+@layer reset, default, framework, component, page;
+@import '@style/layer/fdStyle.reset.scss';
+@import '@style/layer/fdStyle.default.scss';
+@import '@style/layer/fdStyle.framework.scss';
+@import '@style/layer/fdStyle.component.scss';
+@import '@style/layer/fdStyle.page.scss';
